@@ -13,6 +13,7 @@ import styled from 'styled-components';
  font-size: 16px;
  cursor: pointer;
  transition: 0.5s all ease-out;
+
  `
  
 export const FancyButton=styled(StyledButton)`
