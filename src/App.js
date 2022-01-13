@@ -7,7 +7,12 @@ function App() {
     <div className="App">
         {/* <button>click Me</button> */}
         <StyledButton>clicked me</StyledButton>
-       
+   
+         <br/>
+         <br/>
+   
+    
+        <StyledButton variant="outline">clicked me</StyledButton>
 
 
     </div>
