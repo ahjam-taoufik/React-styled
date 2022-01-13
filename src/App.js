@@ -13,7 +13,7 @@ function App() {
         <StyledButton variant="outline">clicked me</StyledButton>
         <br/>
          <br/>
-        <FancyButton  >clicked me</FancyButton>
+        <FancyButton >clicked me</FancyButton>
 
 
     </div>

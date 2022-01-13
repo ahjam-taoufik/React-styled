@@ -13,6 +13,12 @@ import styled from 'styled-components';
  font-size: 16px;
  cursor: pointer;
  transition: 0.5s all ease-out;
+ 
+&:hover {
+      background-color: ${props =>
+       props.variant !== 'outline' ? '#FFF' : '#4caf50'};
+     color: ${props => (props.variant !== 'outline' ? '#4caf50' : '#FFF')};
+ } 
 
  `
  
@@ -22,14 +28,3 @@ export const FancyButton=styled(StyledButton)`
 
 `
 
-
-
-
-
-
-
- /* &:hover {
-     background-color: ${props =>
-      props.variant !== 'outline' ? '#FFF' : '#4caf50'};
-    color: ${props => (props.variant !== 'outline' ? '#4caf50' : '#FFF')};
-} */
