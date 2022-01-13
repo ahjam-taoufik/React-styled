@@ -15,6 +15,15 @@ import styled from 'styled-components';
  transition: 0.5s all ease-out;
  `
  
+export const FancyButton=styled(StyledButton)`
+   background-image: linear-gradient(to right, #61dafb 0%, #e61fdc 100%);
+   border: none;
+
+`
+
+
+
+
 
 
 

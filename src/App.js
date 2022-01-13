@@ -1,5 +1,6 @@
 import './App.css';
-import StyledButton from './components/Button/Button'
+import  {StyledButton, FancyButton } from './components/Button/Button'
+
 
 
 function App() {
@@ -7,12 +8,12 @@ function App() {
     <div className="App">
         {/* <button>click Me</button> */}
         <StyledButton>clicked me</StyledButton>
-   
          <br/>
          <br/>
-   
-    
         <StyledButton variant="outline">clicked me</StyledButton>
+        <br/>
+         <br/>
+        <FancyButton  >clicked me</FancyButton>
 
 
     </div>
